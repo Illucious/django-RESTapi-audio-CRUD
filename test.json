@@ -1,0 +1,11 @@
+{
+    "audio_element_type": "bg_music",
+    "high_volume": 0,
+    "low_volume": 50,
+    "video_element_id": 2,
+    "url": "http://www.spotify.com/watch?v=9bZkp7q19f0",
+    "duration": {
+        "start_time":50,
+        "end_time": 150
+    }
+}
