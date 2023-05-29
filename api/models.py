@@ -23,4 +23,5 @@ class Audio_Element(models.Model):
         VideoElement, on_delete=models.CASCADE, null=True, blank=True
     )
     url = models.URLField(max_length=200, null=True, blank=True)
-    duration = models.JSONField(encoder=None, decoder=None)
+    start_time = models.FloatField(null=True, blank=True)
+    end_time = models.FloatField(null=True, blank=True)

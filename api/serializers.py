@@ -13,4 +13,4 @@ class Audio_Element_Serializer(serializers.ModelSerializer):
     audio_element_id = serializers.ReadOnlyField()
     class Meta:
         model = Audio_Element
-        fields = ('audio_element_id', 'url', 'high_volume', 'low_volume', 'audio_element_type', 'video_element_id', 'duration')
+        fields = ('audio_element_id', 'url', 'high_volume', 'low_volume', 'audio_element_type', 'video_element_id', 'start_time', 'end_time')
