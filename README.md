@@ -7,7 +7,7 @@ A simple REST API service for CRUD operations on audio elements in a video editi
 ## Prerequisites
 
 - Python ≥3.8
-- pip
+- pip(prefer latest)
 
 ---
 
